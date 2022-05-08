@@ -9,5 +9,11 @@ public class NavigateCategoriesTests extends BaseTest{
         navigateCategoriesPage.verifyIfWomensMenuIsWorking();
     }
 
+    @Test
+    public void verifyIfT_ShirtLinkIsWorking(){
+        navigateCategoriesPage.verifyIfWomensMenuIsWorking();
+        navigateCategoriesPage.verifyIfT_ShirtLinkIsWorking();
+    }
+
 
 }
