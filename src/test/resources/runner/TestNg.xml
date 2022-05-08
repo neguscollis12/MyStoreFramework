@@ -9,7 +9,7 @@
         </groups>
 
         <classes>
-            <class name="com.automation.test.NavigateCategoriesTests" />
+            <class name="com.automation.test.NavigateCategoriesWomensTabTests" />
         </classes>
     </test>
 

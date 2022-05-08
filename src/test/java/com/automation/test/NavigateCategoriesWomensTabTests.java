@@ -2,7 +2,7 @@ package com.automation.test;
 
 import org.testng.annotations.Test;
 
-public class NavigateCategoriesTests<groups> extends BaseTest{
+public class NavigateCategoriesWomensTabTests<groups> extends BaseTest{
 
     @Test
     public <groups> void verifyIfWomensMenuIsWorking(){

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class NavigateCategoriesPage {
+public class NavigateWomensMenuPage {
 
    //Verify If Womens Menu Is Working
     @FindBy(xpath = "//header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]")
@@ -41,9 +41,12 @@ public class NavigateCategoriesPage {
     WebElement summerDressesLink;
     @FindBy(xpath = "//body/div[@id='page']/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/span[1]")
     WebElement summerDressText;
+
+
+
     WebDriver driver;
 
-    public NavigateCategoriesPage(WebDriver driver){
+    public NavigateWomensMenuPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -85,6 +88,7 @@ public class NavigateCategoriesPage {
         Assert.assertTrue(summerDressText.isDisplayed(), "Summer Dress text is missing");
     }
 
-    //khgvkhgckhmgvkhgvkhgv
+
+
 
 }
