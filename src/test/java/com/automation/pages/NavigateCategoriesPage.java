@@ -85,4 +85,6 @@ public class NavigateCategoriesPage {
         Assert.assertTrue(summerDressText.isDisplayed(), "Summer Dress text is missing");
     }
 
+    //khgvkhgckhmgvkhgvkhgv
+
 }
