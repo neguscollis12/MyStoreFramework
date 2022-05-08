@@ -11,7 +11,7 @@ public class BaseTest {
     WebDriver driver;
     NavigateCategoriesPage navigateCategoriesPage;
 
-    @BeforeMethod
+    @BeforeMethod (groups = {"group 1"})
     public void setUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver" , "/Users/cce/Desktop/TEST/MyStoreFramework/src/test/resources/drivers/chromedriver");
         driver = new ChromeDriver();
@@ -22,7 +22,7 @@ public class BaseTest {
         navigateCategoriesPage = new NavigateCategoriesPage(driver);
     }
 
-    @AfterMethod
+    @AfterMethod (groups = "group 1")
     public void cleanUp(){
         driver.quit();
     }
